@@ -1,1 +1,1 @@
-#A Weather app for realtime weather updates and forecasting
+# A Weather app for realtime weather updates and forecasting
