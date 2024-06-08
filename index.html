@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="main-heading">My Weather App</h1>
+<div class="search-section">
+    <input type="text" id="cityName-box" placeholder="Name of the City">
+    <button id="searchButton">Search</button>
+</div>
+
+    <div id="detailbox">
+
+      <div class="currentTemp">
+        <div class="locationDetails" style="display: none;" >
+            <p class="location 1">City: <span class="locationName" id="city"></span> </p>
+            <p class="location 2">Region: <span class="locationName" id="region"></span></p>
+            <p class="location 3">Country: <span class="locationName" id="country"></span></p>
+        </div>
+
+        <div class="tempDetails" style="display: none;">
+             <h2 class="temperature">
+                  <span id="temperatureDisplay"></span><span>&#176 C</span>
+                   <br>
+                  <img src="" alt="" id="logo">
+                    <p id="weather-text"></p>
+                     
+                 
+            </h2>
+
+            
+        </div>
+
+        <div class="date-time">
+
+        </div>
+
+    </div>
+
+
+
+    <div class="forecast-container" style="display: none;">
+            <div class="forecast-box  box1">
+                <span id="box1-date"></span>
+                <span id="box1-temp"></span>
+                <img src="" alt="" id="box1-icon" >
+                <span id="box1-text"></span>
+            </div>
+            <div class="forecast-box  box2">
+                <span id="box2-date"></span>
+                <span id="box2-temp"></span>
+                <img src="" alt="" id="box2-icon" >
+                <span id="box2-text"></span>
+            </div>
+            <div class="forecast-box  box3">
+                <span id="box3-date"></span>
+                <span id="box3-temp"></span>
+                <img src="" alt="" id="box3-icon" >
+                <span id="box1-text"></span>
+            </div>
+            <div class="forecast-box  box4">
+                <span id="box4-date"></span>
+                <span id="box4-temp"></span>
+                <img src="" alt="" id="box4-icon" >
+                <span id="box4-text"></span>
+            </div>
+            
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
