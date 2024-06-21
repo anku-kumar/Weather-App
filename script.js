@@ -70,23 +70,23 @@ async function getWeather(city){
 
 
 
-    let box3Date=document.getElementById("box3-date")
-    box3Date.innerText=forecast[3].date
+    // let box3Date=document.getElementById("box3-date")
+    // box3Date.innerText=forecast[3].date
     
-    let box3Temp=document.getElementById("box3-temp")
-    box3Temp.innerText=forecast[3].day.avgtemp_c
+    // let box3Temp=document.getElementById("box3-temp")
+    // box3Temp.innerText=forecast[3].day.avgtemp_c
     
-    document.getElementById("box3-icon").src=forecast[3].day.condition.icon
+    // document.getElementById("box3-icon").src=forecast[3].day.condition.icon
 
 
 
-    let box4Date=document.getElementById("box4-date")
-    box4Date.innerText=forecast[4].date
+    // let box4Date=document.getElementById("box4-date")
+    // box4Date.innerText=forecast[4].date
     
-    let box4Temp=document.getElementById("box4-temp")
-    box4Temp.innerText=forecast[4].day.avgtemp_c
+    // let box4Temp=document.getElementById("box4-temp")
+    // box4Temp.innerText=forecast[4].day.avgtemp_c
     
-    document.getElementById("box4-icon").src=forecast[4].day.condition.icon
+    // document.getElementById("box4-icon").src=forecast[4].day.condition.icon
 
 
 
